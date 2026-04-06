@@ -25,7 +25,7 @@ with app.app_context():
 
 @app.route('/')
 def home():
-    return "Finance Backend API Running 🚀"
+    return "Finance Backend API Running "
 # ---------- LOGIN ----------
 @app.route('/login', methods=['POST'])
 def login():
